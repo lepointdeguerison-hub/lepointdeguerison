@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Le Point de Guérison | Hypnose & PNL</title>
+  <meta name="description" content="Le Point de Guérison — Hypnose, PNL et accompagnement holistique pour retrouver équilibre, clarté et mieux-être." />
+  <meta name="robots" content="index,follow" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Le Point de Guérison" />
+  <meta property="og:description" content="Hypnose, PNL et accompagnement holistique." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://votre-domaine.fr" />
+  <meta property="og:image" content="/og-image.jpg" />
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji'; }
+    .glass { backdrop-filter: blur(12px); background: rgba(255,255,255,0.7); }
+  </style>
+  <script>
+    // Mobile nav toggle
+    function toggleMenu(){ document.getElementById('mobileMenu').classList.toggle('hidden'); }
+  </script>
+</head>
+<body class="bg-gradient-to-br from-slate-50 to-slate-100 text-slate-800">
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-40 bg-white/70 glass border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-emerald-400 to-teal-500 shadow"></div>
+        <div class="leading-tight">
+          <div class="font-semibold text-slate-900">Le Point de Guérison</div>
+          <div class="text-xs text-slate-600">Hypnose • PNL • Holistique</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#approche" class="hover:text-emerald-600">Approche</a>
+        <a href="#services" class="hover:text-emerald-600">Services</a>
+        <a href="#tarifs" class="hover:text-emerald-600">Tarifs</a>
+        <a href="#temoignages" class="hover:text-emerald-600">Témoignages</a>
+        <a href="#contact" class="hover:text-emerald-600">Contact</a>
+        <a href="#rdv" class="px-3 py-2 rounded-xl bg-emerald-500 text-white hover:bg-emerald-600">Prendre RDV</a>
+      </nav>
+      <button class="md:hidden p-2" aria-label="Ouvrir le menu" onclick="toggleMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200">
+      <div class="px-4 py-3 flex flex-col gap-3 text-sm">
+        <a href="#approche" onclick="toggleMenu()">Approche</a>
+        <a href="#services" onclick="toggleMenu()">Services</a>
+        <a href="#tarifs" onclick="toggleMenu()">Tarifs</a>
+        <a href="#temoignages" onclick="toggleMenu()">Témoignages</a>
+        <a href="#contact" onclick="toggleMenu()">Contact</a>
+        <a href="#rdv" class="px-3 py-2 rounded-xl bg-emerald-500 text-white text-center" onclick="toggleMenu()">Prendre RDV</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 py-20 md:py-28 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-semibold leading-tight text-slate-900">
+          Retrouver l’équilibre, <span class="text-emerald-600">pas à pas</span>
+        </h1>
+        <p class="mt-4 text-slate-700 max-w-xl">Le Point de Guérison vous accompagne à travers l’<strong>hypnose</strong>, la <strong>PNL</strong>, le <strong>magnétisme</strong>, le <strong>Reiki</strong>, les soins de <strong>coupeur de feu</strong> et les <strong>massages énergétiques</strong>. Chaque séance est un espace de bienveillance pour apaiser le mental, soulager le corps et libérer les blocages émotionnels.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#rdv" class="px-5 py-3 rounded-xl bg-emerald-500 text-white hover:bg-emerald-600">Prendre RDV</a>
+          <a href="#services" class="px-5 py-3 rounded-xl border border-slate-300 hover:border-emerald-400">Découvrir les services</a>
+          <a href="https://wa.me/33698250700" target="_blank" class="px-5 py-3 rounded-xl bg-white shadow ring-1 ring-slate-200">WhatsApp</a>
+        </div>
+        <div class="mt-4 text-xs text-slate-500">Séances en présentiel (Stains / Chartres) et en visio • Adultes & adolescents</div>
+      </div>
+      <div class="relative">
+        <div class="aspect-[4/3] rounded-3xl bg-white shadow-xl ring-1 ring-slate-200 p-2 overflow-hidden">
+          <img alt="Ambiance zen" class="w-full h-full object-cover rounded-2xl" src="https://source.unsplash.com/960x720/?zen,nature" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Approche -->
+  <section id="approche" class="py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold text-slate-900">Mon approche</h2>
+      <p class="mt-3 text-slate-700 max-w-3xl">Vision <strong>holistique</strong> : le corps, l’esprit et l’énergie sont liés. Chaque séance est personnalisée et peut combiner plusieurs techniques selon votre objectif et votre rythme.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <h3 class="font-semibold">Hypnose</h3>
+          <p class="mt-2 text-sm text-slate-600">Agir avec l’inconscient pour réduire le stress, améliorer le sommeil, dépasser des blocages et renforcer la confiance.</p>
+        </div>
+        <div class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <h3 class="font-semibold">PNL</h3>
+          <p class="mt-2 text-sm text-slate-600">Transformer les schémas de pensée, clarifier vos objectifs, améliorer la communication et installer des ancrages.</p>
+        </div>
+        <div class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <h3 class="font-semibold">Énergétique</h3>
+          <p class="mt-2 text-sm text-slate-600">Magnétisme, Reiki et coupeur de feu : harmoniser l’énergie vitale, apaiser douleurs, brûlures, zona et tensions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 md:py-20 bg-gradient-to-b from-white to-slate-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold text-slate-900">Services</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <img src="https://source.unsplash.com/600x360/?hypnosis,calm" alt="Hypnose" class="rounded-xl mb-4 w-full h-40 object-cover" loading="lazy"/>
+          <h3 class="font-semibold">Séance d’hypnose (60–75 min)</h3>
+          <p class="mt-2 text-sm text-slate-600">Gestion du stress, sommeil, confiance, préparation mentale, peurs et habitudes.</p>
+        </div>
+        <div class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <img src="https://source.unsplash.com/600x360/?mindset,coaching" alt="PNL" class="rounded-xl mb-4 w-full h-40 object-cover" loading="lazy"/>
+          <h3 class="font-semibold">Séance PNL (60 min)</h3>
+          <p class="mt-2 text-sm text-slate-600">Clarification d’objectif, recadrage, croyances, ancrages, communication.</p>
+        </div>
+        <div class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <img src="https://source.unsplash.com/600x360/?reiki,energy" alt="Soins énergétiques" class="rounded-xl mb-4 w-full h-40 object-cover" loading="lazy"/>
+          <h3 class="font-semibold">Soins énergétiques</h3>
+          <p class="mt-2 text-sm text-slate-600">Magnétisme, Reiki & coupeur de feu : harmonisation, apaisement des douleurs, brûlures et inflammations.</p>
+        </div>
+        <div class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <img src="https://source.unsplash.com/600x360/?massage,relax" alt="Massage énergétique" class="rounded-xl mb-4 w-full h-40 object-cover" loading="lazy"/>
+          <h3 class="font-semibold">Massage énergétique (60 min)</h3>
+          <p class="mt-2 text-sm text-slate-600">Détente profonde, relâchement des tensions, circulation de l’énergie.</p>
+        </div>
+        <div class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <img src="https://source.unsplash.com/600x360/?journey,steps" alt="Programme personnalisé" class="rounded-xl mb-4 w-full h-40 object-cover" loading="lazy"/>
+          <h3 class="font-semibold">Programme personnalisé (3 à 6 séances)</h3>
+          <p class="mt-2 text-sm text-slate-600">Parcours sur‑mesure vers un objectif précis, avec outils entre les séances.</p>
+        </div>
+      </div>
+      <div class="mt-6 text-sm text-slate-600">Séances possibles en visio. Facture et devis sur demande.</div>
+    </div>
+  </section>
+
+  <!-- Tarifs -->
+  <section id="tarifs" class="py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold text-slate-900">Tarifs</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <h3 class="font-semibold">Séance individuelle</h3>
+          <p class="mt-1 text-3xl font-semibold">70–90€</p>
+          <p class="mt-2 text-sm text-slate-600">Selon durée et modalité. Visio possible.</p>
+        </div>
+        <div class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <h3 class="font-semibold">Forfait 3 séances</h3>
+          <p class="mt-1 text-3xl font-semibold">à partir de 190€</p>
+          <p class="mt-2 text-sm text-slate-600">Idéal pour un objectif ciblé avec suivi.</p>
+        </div>
+        <div class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <h3 class="font-semibold">Soins énergétiques</h3>
+          <p class="mt-1 text-3xl font-semibold">dès 60€</p>
+          <p class="mt-2 text-sm text-slate-600">Magnétisme, Reiki, coupeur de feu. Massage : 80€</p>
+        </div>
+      </div>
+      <p class="mt-6 text-xs text-slate-500">Paiement espèces, virement, chèque. Non substitutif à un avis médical.</p>
+    </div>
+  </section>
+
+  <!-- Témoignages -->
+  <section id="temoignages" class="py-16 md:py-20 bg-gradient-to-b from-slate-50 to-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold text-slate-900">Témoignages</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <figure class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <blockquote class="text-sm text-slate-700">“J’ai retrouvé le sommeil après seulement deux séances. Merci !”</blockquote>
+          <figcaption class="mt-3 text-xs text-slate-500">— A., Chartres</figcaption>
+        </figure>
+        <figure class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200">
+          <blockquote class="text-sm text-slate-700">“Le soin coupeur de feu m’a soulagé immédiatement.”</blockquote>
+          <figcaption class="mt-3 text-xs text-slate-500">— M., Stains</figcaption>
+        </figure>
+        <figure class="rounded-2xl p-6 bg-white shadow ring-slate-200 ring-1">
+          <blockquote class="text-sm text-slate-700">“Approche douce et efficace, avec des outils entre les séances.”</blockquote>
+          <figcaption class="mt-3 text-xs text-slate-500">— L., Paris (visio)</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- RDV / Contact -->
+  <section id="rdv" class="py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-semibold text-slate-900">Prendre rendez‑vous</h2>
+        <p class="mt-3 text-slate-700">Choisissez votre modalité (cabinet à Chartres ou visio). Je vous confirme sous 24h ouvrées.</p>
+        <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <a href="tel:+33698250700" class="px-4 py-3 rounded-xl bg-white shadow ring-1 ring-slate-200 text-center">Téléphone (06 98 25 07 00)</a>
+          <a href="mailto:lepointdeguerison@gmail.com" class="px-4 py-3 rounded-xl bg-white shadow ring-1 ring-slate-200 text-center">Email</a>
+          <a href="#contact" class="px-4 py-3 rounded-xl bg-emerald-500 text-white text-center">Formulaire</a>
+        </div>
+        <ul class="mt-6 text-sm text-slate-600 list-disc pl-5">
+          <li>Adresse : 22 rue des Modeleurs, 93240 Stains</li>
+          <li>Horaires : L–V 9h–19h • S 10h–14h</li>
+        </ul>
+      </div>
+      <form id="contact" class="rounded-2xl p-6 bg-white shadow ring-1 ring-slate-200" action="https://formspree.io/f/XXXXXXXX" method="POST">
+        <h3 class="text-lg font-semibold">Contact</h3>
+        <div class="mt-4 grid grid-cols-1 gap-4">
+          <label class="text-sm">Votre nom
+            <input type="text" name="name" required class="mt-1 w-full rounded-xl border border-slate-300 p-3 outline-none focus:ring-2 focus:ring-emerald-400" />
+          </label>
+          <label class="text-sm">Email
+            <input type="email" name="email" required class="mt-1 w-full rounded-xl border border-slate-300 p-3 outline-none focus:ring-2 focus:ring-emerald-400" />
+          </label>
+          <label class="text-sm">Message
+            <textarea name="message" rows="4" required class="mt-1 w-full rounded-xl border border-slate-300 p-3 outline-none focus:ring-2 focus:ring-emerald-400"></textarea>
+          </label>
+          <button type="submit" class="mt-2 px-5 py-3 rounded-xl bg-emerald-500 text-white hover:bg-emerald-600">Envoyer</button>
+          <a href="mailto:lepointdeguerison@gmail.com" class="text-sm underline">Ou écrivez‑moi directement</a>
+        </div>
+        <p class="mt-3 text-xs text-slate-500">En envoyant, vous acceptez d’être recontacté par email.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-slate-200 bg-white/70">
+    <div class="max-w-6xl mx-auto px-4 text-sm text-slate-600 grid md:grid-cols-3 gap-6">
+      <div>
+        <div class="font-semibold text-slate-900">Le Point de Guérison</div>
+        <div>Hypnose • PNL • Accompagnement holistique</div>
+        <div class="mt-2 text-xs">SIRET : 789 084 720 00034</div>
+      </div>
+      <div>
+        <div class="font-semibold text-slate-900">Liens</div>
+        <ul class="mt-2 space-y-1">
+          <li><a href="#services" class="hover:text-emerald-600">Services</a></li>
+          <li><a href="#tarifs" class="hover:text-emerald-600">Tarifs</a></li>
+          <li><a href="#contact" class="hover:text-emerald-600">Contact</a></li>
+          <li><a href="#" class="hover:text-emerald-600">Mentions légales</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="font-semibold text-slate-900">Contact</div>
+        <div class="mt-2">Email : lepointdeguerison@gmail.com</div>
+        <div>Tél. : 06 98 25 07 00</div>
+        <div class="mt-2 text-xs">© <span id="year"></span> Le Point de Guérison — Tous droits réservés.</div>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+  <!-- Banner cookies simple -->
+  <div id="cookies" class="fixed bottom-4 inset-x-4 md:inset-x-auto md:right-4 md:w-[28rem] p-4 bg-white shadow-xl ring-1 ring-slate-200 rounded-2xl hidden">
+    <div class="text-sm text-slate-700">Nous utilisons des cookies techniques pour améliorer votre expérience. <button class="underline" onclick="hideCookies()">OK</button></div>
+  </div>
+  <script>
+    function hideCookies(){ localStorage.setItem('cookies-ok','1'); document.getElementById('cookies').classList.add('hidden'); }
+    if(!localStorage.getItem('cookies-ok')){ document.getElementById('cookies').classList.remove('hidden'); }
+  </script>
+</body>
+</html>
