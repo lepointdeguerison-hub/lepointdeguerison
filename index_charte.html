@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Le Point de Guérison — Yann Poincloux · Thérapeute holistique</title>
+  <meta name="description" content="Le Point de Guérison : Hypnose, PNL, Magnétisme, Reiki, Coupeur de feu, Massage bien-être. Stains (93240).">
+  <link rel="icon" type="image/png" href="favicon_logo_gold.png">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root { --emerald:#1F6B5B; --gold:#E7D8AE; --ivory:#FAF9F6; }
+    html,body{ margin:0; padding:0; background:linear-gradient(180deg,var(--gold),var(--ivory)); color:var(--emerald); }
+    body{ font-family:"Inter",system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+    .container{ max-width:1120px; margin:0 auto; padding:0 16px; }
+    .shadow{ box-shadow:0 10px 30px rgba(0,0,0,.08); }
+    header.sticky{ position:sticky; top:0; background:rgba(250,249,246,.9); backdrop-filter:saturate(180%) blur(6px); border-bottom:1px solid rgba(31,107,91,.12); z-index:20; }
+    header .brand{ font-family:"Cormorant Garamond",serif; letter-spacing:.06em; font-weight:600; }
+    nav a{ color:var(--emerald); text-decoration:none; margin-left:18px; opacity:.9; }
+    nav a:hover{ opacity:1; text-decoration:underline; }
+    .hero{ padding:24px 0 0; }
+    .hero img{ width:100%; height:auto; border-radius:18px; }
+    h2{ font-family:"Cormorant Garamond",serif; letter-spacing:.04em; font-weight:600; margin:6px 0 0; }
+    .lead{ font-size:1.1rem; opacity:.9; }
+    .grid{ display:grid; grid-template-columns:repeat(1,1fr); gap:16px; }
+    @media(min-width:880px){ .grid-2{ grid-template-columns:repeat(2,1fr);} .grid-3{ grid-template-columns:repeat(3,1fr);} }
+    .card{ background:rgba(250,249,246,.88); border:1px solid rgba(31,107,91,.12); padding:20px; border-radius:14px; }
+    .inline-icon{ width:28px; height:28px; vertical-align:-6px; margin-right:8px; }
+    .btn{ display:inline-flex; align-items:center; gap:10px; padding:10px 14px; border-radius:12px; background:var(--emerald); color:white; text-decoration:none; }
+    .btn:hover{ filter:brightness(1.05); }
+    .muted{ opacity:.8; }
+    footer{ text-align:center; font-size:.9rem; padding:24px 0 40px; color:var(--emerald); opacity:.9;}
+  </style>
+</head>
+<body>
+  <header class="sticky">
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; padding:10px 0;">
+      <div class="brand">LE POINT DE GUÉRISON</div>
+      <nav>
+        <a href="#approche">Approche</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <img src="affiche_web_header_gold.jpg" alt="Bannière Le Point de Guérison" class="shadow">
+    </div>
+  </section>
+
+  <section class="container" style="padding:28px 0 8px;">
+    <h2>Bienvenue au Point de Guérison</h2>
+    <p class="lead">Yann Poincloux — Thérapeute holistique · <span class="muted">“La rencontre du corps et de l’esprit”</span></p>
+  </section>
+
+  <section id="services" class="container" style="padding:10px 0 26px;">
+    <div class="grid grid-3">
+      <div class="card">
+        <h3><img src="icones_lineaires/icone_lotus.svg" class="inline-icon" alt=""> Hypnose</h3>
+        <p class="muted">Stress, sommeil, confiance, préparation mentale, phobies.</p>
+      </div>
+      <div class="card">
+        <h3><img src="icones_lineaires/icone_meditation.svg" class="inline-icon" alt=""> PNL</h3>
+        <p class="muted">Recadrage, croyances, objectifs, communication.</p>
+      </div>
+      <div class="card">
+        <h3><img src="icones_lineaires/icone_energie.svg" class="inline-icon" alt=""> Énergétique</h3>
+        <p class="muted">Magnétisme, Reiki, coupeur de feu : harmonisation & apaisement.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" style="padding:0 0 26px;">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3><img src="icones_lineaires/icone_feuille.svg" class="inline-icon" alt=""> Massage bien-être</h3>
+        <p class="muted">Détente profonde, circulation de l’énergie, relâchement des tensions.</p>
+      </div>
+      <div class="card">
+        <h3><img src="lotus_vector.svg" class="inline-icon" alt=""> Approche holistique</h3>
+        <p class="muted">Corps, esprit et énergie sont liés. Les séances sont personnalisées selon votre rythme.</p>
+      </div>
+    </div>
+    <div style="margin-top:16px;">
+      <a href="affiche_A4.pdf" class="btn shadow" download>📄 Télécharger la brochure (PDF)</a>
+    </div>
+  </section>
+
+  <section id="contact" class="container" style="padding:10px 0 24px;">
+    <h2>Contact</h2>
+    <p>22 rue des Modeleurs, 93240 Stains · 06 98 25 07 00 ·
+      <a href="mailto:lepointdeguerison@gmail.com" style="color:var(--emerald);">lepointdeguerison@gmail.com</a>
+    </p>
+  </section>
+
+  <footer>© 2025 Le Point de Guérison — Tous droits réservés.</footer>
+</body>
+</html>
